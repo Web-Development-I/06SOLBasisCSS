@@ -1,0 +1,45 @@
+/* 
+De default grootte van 1em = 16px;
+   Bereken de grootte (in pixels) van de letters in
+    - in het article blok. Antw: 19.2px
+    - de paragrafen in dit blok. Antw: 14.4px
+    - de li in de eerste ul en de li in de geneste ul.  Antw: eerste li: 17.28px - tweede (geneste): 15.552px
+   Waarom is de grootte van klik 2 groter dan van klik 3, en wat is de grootte in pixels? 
+   Antwoord: Klik 2: 28.8 - Klik 3: 21.6.
+   Controleer je antwoord via de ontwikkeltools in Chrome (F12) 
+   Element - Selecteer het element en kies dan in de tools computed. 
+
+Vervang in deze stylesheet alle em door rem.
+Wat zullen nu de lettergroottes zijn in pixels?
+    article: 19.2px
+    paragraaf: 12px
+    klik 2: 24px
+    klik 3: 24px
+    li: 14.4px
+    li - genest: 14.px
+*/
+
+
+body{
+    font-family: monospace, Calibri, sans-serif;
+}
+
+article{
+    font-size: 1.2em;
+} 
+
+p{
+    font-size: .75em
+}
+
+a{
+    color: #43af11;
+    text-decoration: none;
+    font-size: 1.5em
+}
+article li{
+    font-size: 0.9em;
+}
+
+
+
